@@ -9,3 +9,6 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 
 # hyper theme
 hyper install hyper-snazzy
+
+# react-native
+sudo gem install cocoapods

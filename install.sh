@@ -12,3 +12,6 @@ hyper install hyper-snazzy
 
 # react-native
 sudo gem install cocoapods
+
+# vue cli
+yarn global add @vue/cli

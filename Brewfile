@@ -31,7 +31,6 @@ brew "nvm"
 brew "pyenv"
 cask "notion"
 cask "docker"
-cask "gitkraken"
 cask "visual-studio-code"
 
 # setup - react-native
@@ -40,21 +39,9 @@ brew "react-native-cli"
 cask "android-studio"
 
 # apps - cask
-cask "slack"
 cask "rectangle"
-cask "sequel-pro"
 cask "google-chrome"
 cask "android-file-transfer"
-
-# TODO: app - microsofts
-# cask "microsoft-auto-update"
-# cask "microsoft-excel"
-# cask "microsoft-outlook"
-# cask "microsoft-powerpoint"
-# cask "microsoft-teams"
-# cask "microsoft-word"
-# mas "Microsoft OneNote", id: 784801555
-# mas "Microsoft To Do", id: 1274495053
 
 # app - personal
 cask "zoom"

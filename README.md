@@ -4,7 +4,14 @@ Set up Mac for development with homebrew. I have organized what I usually use.
 
 ## Install
 
-### Install with this repo
+```zsh
+# Install with scripts
+touch Brewfile
+touch install.sh
+
+# After copy and paste code form github
+sh install.sh
+```
 
 Setup proceeds in the following order.
 
@@ -12,18 +19,16 @@ Setup proceeds in the following order.
 2. Install homebrew packages
 3. Install others using shell script
 
-```zsh
-sh install.sh
-```
+## Backup
 
 If you have a mac that is currently using homebrew, I recommend extracting the package directly in the following way.
 
-### Backup my own homebrew package
 
 ```zsh
+# Backup my own homebrew package
 brew bundle dump
 cat brewfile
 
-# in own mac
-brew install
+# in another mac
+brew bundle
 ```

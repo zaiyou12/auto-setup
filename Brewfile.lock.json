@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask-fonts": {
-        "revision": "9544a97f8aaa74442abb13f00ce5d9a354610153"
+        "revision": "c736de07dd5b9479a0905ce5aeb4f008aac7b6b7"
       }
     },
     "brew": {
@@ -573,100 +573,91 @@
       "font-fira-code": {
         "version": "6.2",
         "options": {
-          "full_name": "font-fira-code",
-          "args": {
-            "appdir": "~/Applications"
-          }
+          "full_name": "font-fira-code"
         }
       },
       "notion": {
-        "version": "3.1.0",
+        "version": "3.1.1",
         "options": {
-          "full_name": "notion",
-          "args": {
-            "appdir": "~/Applications"
-          }
+          "full_name": "notion"
         }
       },
       "docker": {
         "version": "4.26.1,131620",
         "options": {
-          "full_name": "docker",
-          "args": {
-            "appdir": "~/Applications"
-          }
+          "full_name": "docker"
         }
       },
       "visual-studio-code": {
-        "version": "1.85.1",
+        "version": "1.85.2",
         "options": {
-          "full_name": "visual-studio-code",
-          "args": {
-            "appdir": "~/Applications"
-          }
+          "full_name": "visual-studio-code"
         }
       },
       "android-studio": {
         "version": "2023.1.1.27",
         "options": {
-          "full_name": "android-studio",
-          "args": {
-            "appdir": "~/Applications"
-          }
+          "full_name": "android-studio"
         }
       },
       "rectangle": {
         "version": "0.75",
         "options": {
-          "full_name": "rectangle",
-          "args": {
-            "appdir": "~/Applications"
-          }
+          "full_name": "rectangle"
         }
       },
       "google-chrome": {
-        "version": "120.0.6099.216",
+        "version": "120.0.6099.234",
         "options": {
-          "full_name": "google-chrome",
-          "args": {
-            "appdir": "~/Applications"
-          }
+          "full_name": "google-chrome"
         }
       },
       "android-file-transfer": {
         "version": "5071136",
         "options": {
-          "full_name": "android-file-transfer",
-          "args": {
-            "appdir": "~/Applications"
-          }
+          "full_name": "android-file-transfer"
         }
       },
       "telegram": {
-        "version": "10.5,257870",
+        "version": "10.6,258516",
         "options": {
-          "full_name": "telegram",
-          "args": {
-            "appdir": "~/Applications"
-          }
+          "full_name": "telegram"
         }
       },
       "iterm2": {
         "version": "3.4.23",
         "options": {
-          "full_name": "iterm2",
-          "args": {
-            "appdir": "~/Applications"
-          }
+          "full_name": "iterm2"
         }
       },
       "fig": {
         "version": "2.17.0",
         "options": {
-          "full_name": "fig",
-          "args": {
-            "appdir": "~/Applications"
-          }
+          "full_name": "fig"
+        }
+      },
+      "devtoys": {
+        "version": "0.0.11",
+        "options": {
+          "full_name": "devtoys"
+        }
+      },
+      "xcodes": {
+        "version": "1.10.0b18",
+        "options": {
+          "full_name": "xcodes"
+        }
+      },
+      "flutter": {
+        "version": "3.16.8",
+        "options": {
+          "full_name": "flutter"
+        }
+      },
+      "dbeaver-community": {
+        "version": "23.3.2",
+        "options": {
+          "full_name": "dbeaver-community"
         }
       }
     },
@@ -674,6 +665,14 @@
       "KakaoTalk": {
         "id": "869223134",
         "version": "3.4.1"
+      },
+      "RunCat": {
+        "id": "1429033973",
+        "version": "10.3"
+      },
+      "ColorSlurp": {
+        "id": "1287239339",
+        "version": "3.9.2"
       }
     }
   },
@@ -684,7 +683,7 @@
         "HOMEBREW_PREFIX": "/opt/homebrew",
         "Homebrew/homebrew-core": "api",
         "CLT": "15.1.0.0.1.1700200546",
-        "Xcode": "15.1",
+        "Xcode": "15.2",
         "macOS": "14.2.1"
       }
     }

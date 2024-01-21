@@ -1,34 +1,44 @@
 # auto-setup
 
-Set up Mac for development with homebrew. I have organized what I usually use. 
+Set up your Mac for development with Homebrew. This repository contains a curated list of tools and applications I commonly use.
 
-## Install
+## Prerequisite
 
-```zsh
-# Install with scripts
+```bash
+# Create, copy and paste the code from the respective files.
 touch Brewfile
 touch install.sh
 
-# After copy and paste code form github
-sh install.sh
+# Or if you have git installed
+git clone https://github.com/zaiyou12/auto-setup.git
+cd auto-setup
 ```
 
-Setup proceeds in the following order.
+## Setup
+
+```bash
+bash install.sh
+```
+
+Installation proceeds in the following order.
 
 1. Install homebrew
 2. Install homebrew packages
 3. Install others using shell script
 
+### Git configuration
+
+During the setup, you will be prompted to enter your Git user name and email. This is essential for configuring Git globally on your system. If you already have existing Git configurations, you will be given the option to update them.
+
 ## Backup
 
-If you have a mac that is currently using homebrew, I recommend extracting the package directly in the following way.
+If you are currently using Homebrew on another Mac, it's recommended to back up your existing packages. Use the following commands:
 
-
-```zsh
-# Backup my own homebrew package
+```bash
+# Backup your own Homebrew packages
 brew bundle dump
-cat brewfile
+cat Brewfile
 
-# in another mac
+# On another Mac, restore the packages
 brew bundle
 ```

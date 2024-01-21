@@ -674,6 +674,27 @@
         "id": "1287239339",
         "version": "3.9.2"
       }
+    },
+    "vscode": {
+      "bradlc.vscode-tailwindcss": null,
+      "csstools.postcss": null,
+      "dbaeumer.vscode-eslint": null,
+      "EditorConfig.EditorConfig": null,
+      "GraphQL.vscode-graphql": null,
+      "GraphQL.vscode-graphql-syntax": null,
+      "mgmcdermott.vscode-language-babel": null,
+      "mhutchie.git-graph": null,
+      "ms-azuretools.vscode-docker": null,
+      "ms-kubernetes-tools.vscode-kubernetes-tools": null,
+      "ms-vscode-remote.remote-containers": null,
+      "OfHumanBondage.react-proptypes-intellisense": null,
+      "pflannery.vscode-versionlens": null,
+      "PKief.material-icon-theme": null,
+      "Prisma.prisma": null,
+      "redhat.vscode-yaml": null,
+      "seatonjiang.gitmoji-vscode": null,
+      "withfig.fig": null,
+      "wix.vscode-import-cost": null
     }
   },
   "system": {

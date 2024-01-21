@@ -46,3 +46,31 @@ cask "android-file-transfer"
 ## Personal App
 cask "telegram"
 mas "KakaoTalk", id: 869223134
+
+# VScode extentions
+## Git
+vscode "mhutchie.git-graph"
+vscode "seatonjiang.gitmoji-vscode"
+## Terminal
+vscode "withfig.fig"
+## Lint, Style
+vscode "redhat.vscode-yaml"
+vscode "PKief.material-icon-theme"
+vscode "EditorConfig.EditorConfig"
+## CSS
+vscode "bradlc.vscode-tailwindcss"
+vscode "csstools.postcss"
+## JS, Typescript
+vscode "Prisma.prisma"
+vscode "dbaeumer.vscode-eslint"
+vscode "wix.vscode-import-cost"
+vscode "pflannery.vscode-versionlens"
+vscode "mgmcdermott.vscode-language-babel"
+vscode "OfHumanBondage.react-proptypes-intellisense"
+## GraphQL
+vscode "GraphQL.vscode-graphql"
+vscode "GraphQL.vscode-graphql-syntax"
+## Docker
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-vscode-remote.remote-containers"
+vscode "ms-kubernetes-tools.vscode-kubernetes-tools"

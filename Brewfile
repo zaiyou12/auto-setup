@@ -1,5 +1,6 @@
 # Homebrew Cask Fonts
 tap "homebrew/cask-fonts"
+tap "homebrew/bundle"
 cask "font-fira-code"
 
 # Homebrew Packages
@@ -22,28 +23,37 @@ cask "fig"
 
 # Developer Tools
 brew "git"
+brew "nvm"
 brew "htop"
+cask "maccy"
+cask "ngrok"
 cask "iterm2"
 cask "notion"
 cask "docker"
-cask "visual-studio-code"
+brew "awscli"
 cask "devtoys"
 cask "dbeaver-community"
+cask "visual-studio-code"
 mas "RunCat", id: 1429033973
 mas "ColorSlurp", id: 1287239339
 
 # App Development
-cask "android-studio"
 cask "xcodes"
 cask "flutter"
+brew "fastlane"
+brew "cocoapods"
+tap "dart-lang/dart"
+cask "android-studio"
 
 # Apps
 ## Cask Apps
+cask "steam"
 cask "rectangle"
 cask "google-chrome"
 cask "android-file-transfer"
 
 ## Personal App
+cask "kindle"
 cask "telegram"
 mas "KakaoTalk", id: 869223134
 
@@ -65,6 +75,7 @@ vscode "Prisma.prisma"
 vscode "dbaeumer.vscode-eslint"
 vscode "wix.vscode-import-cost"
 vscode "pflannery.vscode-versionlens"
+vscode "ms-vscode.vscode-typescript-next"
 vscode "mgmcdermott.vscode-language-babel"
 vscode "OfHumanBondage.react-proptypes-intellisense"
 ## GraphQL
@@ -74,3 +85,9 @@ vscode "GraphQL.vscode-graphql-syntax"
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-vscode-remote.remote-containers"
 vscode "ms-kubernetes-tools.vscode-kubernetes-tools"
+## Dart
+vscode "Dart-Code.dart-code"
+## API
+vscode "Postman.postman-for-vscode"
+## App
+vscode "vscjava.vscode-gradle"

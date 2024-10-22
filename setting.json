@@ -1,0 +1,48 @@
+{
+  "workbench.colorTheme": "Snazzy Light",
+  "workbench.preferredDarkColorTheme": "Snazzy Operator",
+  "window.autoDetectColorScheme": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.statusBar.visible": false,
+  "editor.fontSize": 18,
+  "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "workbench.sideBar.location": "right",
+  "workbench.editor.showTabs": "none",
+  "editor.tabSize": 2,
+  "editor.snippetSuggestions": "top",
+  "editor.minimap.enabled": false,
+  "editor.linkedEditing": true,
+  "editor.guides.bracketPairs": true,
+  "git.autofetch": true,
+  "markdown.preview.fontSize": 18,
+  "terminal.integrated.fontSize": 18,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "scminput": false
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+  "editor.tokenColorCustomizations": {
+    "[Snazzy Operator]": {
+      "textMateRules": [
+        {
+          "scope": [
+            "entity.name.tag.js.jsx support.class.component.js.jsx",
+            "entity.name.tag support.class.component",
+            "source.vue support.class.component"
+          ],
+          "settings": { "foreground": "#00fab5" }
+        }
+      ]
+    }
+  },
+  "editor.accessibilitySupport": "off",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "always"
+}
